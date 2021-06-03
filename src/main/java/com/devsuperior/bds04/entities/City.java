@@ -19,6 +19,7 @@ public class City {
 	private Long id;
 	private String name;
 	
+	
 	@OneToMany(mappedBy = "city")
 	private List<Event> events = new ArrayList<>();
 	
